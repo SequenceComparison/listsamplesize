@@ -1,0 +1,24 @@
+{
+    "upload_type": "dataset",
+    "access_right": "open",
+    "contributors": [],
+    "creators": [
+        {
+            "name": "Johann-Mattis List"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "title": "CLDF Dataset derived from List's \"Sample Size and Cognate Detection\" from 2014",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>List, Johann-Mattis (2014): Investigating the impact of sample size on cognate detection. Journal of Language Relationship. 11. 91-102. DOI: https://doi.org/10.31826/jlr-2014-110111</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
