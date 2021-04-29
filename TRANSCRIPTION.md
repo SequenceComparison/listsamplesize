@@ -20,7 +20,7 @@
 | ʀ | 301 | ✓ | ✓ |
 | ɪ | 292 | ✓ | ✓ |
 | f | 269 | ✓ | ✓ |
-| + | 262 | ✓ | ✓ |
+| + | 261 | ✓ | ✓ |
 | a | 260 | ✓ | ✓ |
 | v | 245 | ✓ | ✓ |
 | ɔ | 238 | ✓ | ✓ |
@@ -95,7 +95,7 @@
 ## Unsegmentable lexemes (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM |
-||
+|------|------------|-----------|--------|
 
 (0 rows)
 
@@ -104,7 +104,7 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-||
+|------|------------|-----------|--------|------------|
 
 (0 rows)
 
