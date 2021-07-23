@@ -1,8 +1,16 @@
 # CLDF Dataset derived from List's "Sample Size and Cognate Detection" from 2014
 
-Cite the source dataset as
+[![CLDF validation](https://github.com/SequenceComparison/listsamplesize/workflows/CLDF-validation/badge.svg)](https://github.com/SequenceComparison/listsamplesize/actions?query=workflow%3ACLDF-validation)
 
-> List, Johann-Mattis (2014): Investigating the impact of sample size on cognate detection. Journal of Language Relationship. 11. 91-102. DOI: https://doi.org/10.31826/jlr-2014-110111
+## How to cite
+
+If you use these data please cite
+- the original source
+  > List, Johann-Mattis (2014): Investigating the impact of sample size on cognate detection. Journal of Language Relationship. 11. 91-102. DOI: https://doi.org/10.31826/jlr-2014-110111
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-By-4.0 license
 
@@ -14,6 +22,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![CLDF validation](https://github.com/SequenceComparison/listsamplesize/workflows/CLDF-validation/badge.svg)](https://github.com/SequenceComparison/listsamplesize/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -39,3 +48,10 @@ Name | GitHub user | Description | Role
 Johann-Mattis List | @LinguList | maintainer | Author
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
