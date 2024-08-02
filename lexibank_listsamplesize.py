@@ -3,25 +3,23 @@ import lingpy as lp
 
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
-from pylexibank.util import getEvoBibAsBibtex
-from pylexibank import progressbar
-from pylexibank import Concept, Language
+from pylexibank import Concept
 import attr
 
-#from pyconcepticon import Concepticon
 
 @attr.s
 class CustomConcept(Concept):
     Number = attr.ib(default=None)
 
+
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = 'listsamplesize'
     concept_class = CustomConcept
-
+    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_makecldf(self, args):
-    
+
         concepts = {}
         wl = lp.Wordlist(self.raw_dir.joinpath('IDS.csv').as_posix())
 
@@ -37,8 +35,9 @@ class Dataset(BaseDataset):
             concepts[concept.attributes['ids_id'].replace('-', '.').strip('0')] = idx
 
         languages = args.writer.add_languages(
-                lookup_factory="Name", id_factory=lambda x: slug(x['Name']))
-        
+            lookup_factory="Name", id_factory=lambda x: slug(x['Name'])
+            )
+
         args.writer.add_sources()
         for idx in wl:
             lexeme = args.writer.add_form(
@@ -54,4 +53,4 @@ class Dataset(BaseDataset):
                     Cognateset_ID=wl[idx, 'cogid'],
                     Cognate_Detection_Method='expert',
                     Source=['List2014c']
-                    )        
+                    )

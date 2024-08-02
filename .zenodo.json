@@ -1,7 +1,12 @@
 {
     "upload_type": "dataset",
     "access_right": "open",
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Johann-Mattis List",
+            "type": "Editor"
+        }
+    ],
     "creators": [
         {
             "name": "Johann-Mattis List"
